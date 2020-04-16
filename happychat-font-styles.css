@@ -1,0 +1,64 @@
+/* End chat and user left chat background */
+
+.chat__message.chat__message__type-event.chat__message__type-customer-leave .chat__message__text {
+    font-size: 10px;
+}
+
+.chat__message.chat__message__type-event.chat__message__type-chat-close .chat__message__text {
+    font-size: 10px;
+}
+
+/* User event messages */
+.chat__message.chat__message__type-event.chat__message__type-customer-event .chat__message__text a, .chat__message.chat__message__type-event.chat__message__type-customer-leave .chat__message__text a {
+    font-size: 10px;
+}
+
+.chat__message.chat__message__type-event.chat__message__type-customer-event .chat__message__text, .chat__message.chat__message__type-event.chat__message__type-transfer .chat__message__text, .chat__message.chat__message__type-event.chat__message.chat__message__type-operator-leave .chat__message__text {
+    font-size: 10px;
+}
+
+/* Error message */
+
+.chat__message.chat__message__type-event.chat__message__type-error.chat__message__type-send-error .chat__message__text {
+    font-size: 10px;
+}
+
+/* User and Site Info Buttons like RC and NA */
+.user-blog-panel__button.button, .user-data-panel__button.button {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* Selected site URL */
+.user-panel-items__item-content a, .user-blog-panel__url a, .user-upgrades-items__item a {
+    font-size: 12px;
+}
+
+/* Overall text size of the right side panel */
+
+.user-panel-items__item, .user-panel-items__item i, .user-blog-panel__upgrades-expiry {
+    font-size: 10px;
+}
+
+/* Plan Level Text */
+
+.user-panel-items__item-label strong {
+    font-weight: 700;
+}
+
+/* Support history links */
+.user-data-panel__support-history a {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.user-data-panel__support-history-timestamp {
+    font-size: 10px;
+}
+
+/* Active Site Title */
+
+.user-blog-panel__display-name, .user-blog-panel__display-name span {
+    font-size:10px;
+    font-weight: 700;
+}

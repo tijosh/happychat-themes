@@ -1,0 +1,331 @@
+/*
+* === Left panel colors ===
+*/
+
+.chat-list__items p {
+    color: #515151fa;
+}
+
+.chat-list__item.is-selected {
+    color: #fff;
+    background: #2d2d2d;
+}
+
+/* Operator capacity */
+
+.capacity__stats-bubble.available {
+    background: #c9ece2;
+    border-color: #0fac80;
+}
+
+.capacity__stats-bubble.reserve {
+    background: #cedeee;
+    border-color: #5c758e;
+}
+
+/* Unread count */
+
+.chat-list__item-unread-count {
+    background: #3cd2a8;
+}
+
+/* Chat list items */
+
+.chat-list__item:hover {
+    background: #e3e3e3;
+}
+
+.chat-list__item.is-selected:hover {
+    background: #e3e3e3;
+    color: #2d2d2d;
+}
+
+/* Chat flags like AT BIZ */
+
+.chat__label {
+    background-color: #d7d7d7;
+}
+
+/* +1 button */
+
+.chat-request-chat-button {
+    background: #f9f9f9d4;
+    border-color: #a4a4a4cf;
+    color: #515151fa;
+}
+
+.chat-request-chat-button:hover {
+    border-color: #a53f22;
+    color: #a53f22;
+}
+
+/*
+* === Chat Message Colors ===
+*/
+
+/* Operator message color */
+
+.chat__message .chat__message__text {
+    background: #3cd2a8;
+}
+
+.chat__message .chat__message__text:after {
+    border-bottom: 8px solid #3cd2a8;
+}
+/* Links in messages */
+
+.chat__message .chat__message__text  a, .chat__message.chat__message__from-user .chat__message__text a, .chat__message.chat__message__type-customer-info .collapsable-section__label {
+    color: #19535F;
+}
+
+/* Notes Links */
+
+.chat__message.chat__message__type-note .chat__message__text .chat__message__link {
+    color: #19535F;
+}
+
+/* Transcript Links Color */
+
+.chat-info__details a, .session__header-links a{
+    color: #19535F;
+}
+
+.chat-actions__current-chat-action-compose textarea {
+    color: #151515;
+}
+/* Notes Background */
+
+.chat__message.chat__message__type-note .chat__message__text {
+    background: #d7d7d7;
+}
+
+/* Notes Text */
+
+.chat__message.chat__message__type-note .chat__message__text {
+    color: inherit;
+}
+
+/* End chat and user left chat background */
+
+.chat__message.chat__message__type-event.chat__message__type-customer-leave .chat__message__text {
+    background: #a53f22;
+}
+
+.chat__message.chat__message__type-event.chat__message__type-chat-close .chat__message__text {
+    background: #a53f22;
+}
+
+/* User event messages */
+.chat__message.chat__message__type-event.chat__message__type-customer-event .chat__message__text a, .chat__message.chat__message__type-event.chat__message__type-customer-leave .chat__message__text a {
+    color: white;
+}
+
+.chat__message.chat__message__type-event.chat__message__type-customer-event .chat__message__text, .chat__message.chat__message__type-event.chat__message__type-transfer .chat__message__text, .chat__message.chat__message__type-event.chat__message.chat__message__type-operator-leave .chat__message__text {
+    background: #515151;
+}
+
+/* Tags background */
+
+.chat__message.chat__message__type-tagged .chat__message__text {
+    background: #3cc5d2;
+}
+
+/* Tag selection auto complete color */
+
+.auto-complete__item.is-selected {
+    background-color: #3cc5d2;
+}
+
+.auto-complete__toolbar {
+    background: #f9f9f9d4;
+    border-color: #a4a4a4cf;
+    color: #515151fa;
+}
+
+/* Tag Suggestions */
+
+.tag-suggestions__item {
+    border-color: #3cd2a8;
+    color: #3cd2a8;
+}
+
+.tag-suggestions__item:hover {
+    background-color: #3cd2a8;
+}
+
+/* Error message */
+
+.chat__message.chat__message__type-event.chat__message__type-error.chat__message__type-send-error .chat__message__text {
+    background: #a53f22;
+}
+
+.session__stats {
+    color: #515151fa;
+}
+
+/* Full conversation button */
+
+.expand-button {
+    background: #e8e8e8;
+    border-bottom: 1px solid #cacaca;
+    color: #515151fa;
+}
+
+/* Message star */
+
+.chat__message .starred {
+    color: #2d2d2d;
+}
+/*
+* === Right Side Panel Colors ===
+*/
+/* +Add Note Link */
+.user-data-panel__notes a {
+    color: #2d2d2d;
+}
+
+/* User notes background color */
+
+.user-data-panel__user-notes__item {
+    background: #3cd2a8;
+}
+
+/* User notes page corner — first value should match right sidebar background color */
+
+.user-data-panel__user-notes__item:before {
+    border-color: #f2f2f2 #2db08c;
+}
+
+/* Support history and analytics log count bubble */
+.user-data-panel .collapsable-section__preview, .user-log-panel .collapsable-section__preview {
+    background: #2d2d2d;
+}
+
+/* User and Site Info Buttons like RC and NA */
+.user-blog-panel__button.button, .user-data-panel__button.button {
+    color: #2d2d2d;
+}
+
+.button {
+    border-color: #cacaca;
+}
+
+/* Selected site URL */
+.user-panel-items__item-content a, .user-blog-panel__url a, .user-upgrades-items__item a {
+    color: #2d2d2d;
+}
+
+/* Gravatar background */
+
+.user-blog-panel__gravatar {
+    background: #ddd;
+}
+
+/* Plan Level Text */
+
+.user-panel-items__item-label strong {
+    color: #2d2d2d;
+}
+
+.user-upgrades-items__item {
+    background: #e3e3e3;
+    border: 1px solid #cacaca;
+}
+/* Support history links */
+.user-data-panel__support-history a {
+    color: #2d2d2d;
+}
+
+/* Site info labels */
+
+.user-panel-items__item-label {
+    color: #515151fa;
+}
+
+/* Open ticket */
+
+.user-data-panel__user-notes__item.user-data-panel__user-notes__error {
+    background: #a53f22;
+}
+
+/* Open ticket page corner — first value should match right sidebar background color */
+
+.user-data-panel__user-notes__item.user-data-panel__user-notes__error:before {
+    border-color: #f2f2f2 #e48383;
+}
+
+/* ToS flag */
+
+.user-blog-panel__flag-name-green {
+    color: #3cd2a8;
+}
+
+.user-blog-panel__flag-label {
+    color: #515151fa;
+}
+/* Scrollbar colors */
+
+::-webkit-scrollbar-thumb {
+    background-color: #5151514a;
+}
+
+/*
+* === Left and Right Panel Background ===
+*/
+
+body, .chat__current-chat-meta {
+    background: #f2f2f2;
+}
+
+/*
+* === Middle Panel Background ===
+*/
+
+.chat-toolbar, .chat__current-chat {
+    background: #f4f4f4;
+}
+
+.chat-info, .capacity__operators p  {
+    background: #e8e8e8;
+    border-bottom: 1px solid #cacaca;
+    color: #2d2d2d;
+}
+
+.autotranslate-button {
+    background-color: #e8e8e8;
+    border-color: #cacaca;
+    color: #2d2d2d;
+}
+
+.chat-toolbar__menu-item.is-selected {
+    color: #2d2d2d;
+    border-bottom: 2px solid #2d2d2d;
+}
+
+.chat-toolbar__menu-item {
+    color: #2d2d2d;
+}
+
+.chat-toolbar__menu-item:hover {
+    border-bottom: 2px solid #bbb;
+}
+
+.chat-info__locale-badge, .chat-info__group-badge {
+    color: #19535F;
+}
+
+.chat__current-chat__actions > div textarea {
+    border: 2px solid white;
+}
+
+.chat__current-chat__actions > div textarea:focus {
+     box-shadow: none !important;
+     border: 2px solid #bdbdbd;
+     border-radius: 3px;
+}
+
+/* Note text area color */
+
+.chat__current-chat__actions textarea.note {
+    background-color: #e8f9f5;
+}
